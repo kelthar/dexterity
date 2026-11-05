@@ -1,6 +1,6 @@
 # Dexterity
 
-A component-based, customizable .NET 8 solution for handling RPG character
+A component-based, customizable .NET solution for handling RPG character
 components, with simple generation of characters and items.
 
 Characters, items and skills are all **components** living in a configurable
