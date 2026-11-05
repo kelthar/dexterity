@@ -4,6 +4,19 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <PackageId>Dexterity.Generation</PackageId>
+    <Version>0.1.0</Version>
+    <Description>Template- and worth-budget-based generation of Dexterity RPG characters and items.</Description>
+    <PackageTags>rpg;game;generation;procedural;loot</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="../Dexterity/Dexterity.csproj" />
     <PackageReference Include="Riok.Mapperly" Version="4.3.1" PrivateAssets="all" />
