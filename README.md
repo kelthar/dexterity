@@ -66,22 +66,6 @@ dotnet add package Dexterity.Generation
 
 ## Quick start
 
-Alternatively, reference the projects from a local checkout:
-
-```sh
-dotnet add reference /path/to/dexterity/src/Dexterity/Dexterity.csproj
-dotnet add reference /path/to/dexterity/src/Dexterity.Generation/Dexterity.Generation.csproj
-```
-
 Configure a `World`, build it with `WorldBuilder`, then create components through
 the repository or the generation service. The project READMEs contain complete
 examples.
-
-## Build and test
-
-```sh
-dotnet build src/Dexterity.sln
-dotnet test src/Dexterity.sln
-```
-
-Requires the .NET 8 SDK.
