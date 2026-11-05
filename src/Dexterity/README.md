@@ -56,7 +56,19 @@ relations rather than embedding copies.
 
 ## Reference the project
 
-From your application project, add a reference to the library:
+Install the NuGet package:
+
+```sh
+dotnet add package Dexterity
+```
+
+To use the optional template-based generation library as well:
+
+```sh
+dotnet add package Dexterity.Generation
+```
+
+Or, from your application project, add a reference to the local project:
 
 ```sh
 dotnet add reference /path/to/fourtwo.rpgsystem/src/Dexterity/Dexterity.csproj

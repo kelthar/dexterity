@@ -55,7 +55,18 @@ Builds on the core library to generate components from templates and a worth bud
 
 See the [Dexterity.Generation README](src/Dexterity.Generation/README.md) for details.
 
+## Installation
+
+Install the packages from NuGet:
+
+```sh
+dotnet add package Dexterity
+dotnet add package Dexterity.Generation
+```
+
 ## Quick start
+
+Alternatively, reference the projects from a local checkout:
 
 ```sh
 dotnet add reference /path/to/dexterity/src/Dexterity/Dexterity.csproj

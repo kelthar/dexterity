@@ -3,6 +3,13 @@
 A .NET 8 template-based generator for Dexterity components. It ports the core
 Fourtwo.Generation concepts without depending on the old Fourtwo package.
 
+## Installation
+
+```sh
+dotnet add package Dexterity
+dotnet add package Dexterity.Generation
+```
+
 ## Create a component
 
 Configure and build a Dexterity `World` first. Define templates with explicit
