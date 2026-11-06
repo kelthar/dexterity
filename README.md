@@ -8,6 +8,10 @@ Characters, items and skills are all **components** living in a configurable
 handles the relationships and rules between them. Your game decides when actions
 happen, which targets are chosen, and how results are stored or shown.
 
+## Why
+
+I am using this for my own game that I tinker on in my free time. The first system had it's flaws and this is the second generation of a rpg system. I made it to be flexible and customizable to a degree. There is always a tradeoff between how generic and how easy it is to use. When I have time I will create an example project since it's a lot to setup.
+
 ## Projects
 
 | Project | Purpose | Docs |
