@@ -10,7 +10,7 @@ happen, which targets are chosen, and how results are stored or shown.
 
 ## Why
 
-I am using this for my own game that I tinker on in my free time. The first system had it's flaws and this is the second generation of a rpg system. I made it to be flexible and customizable to a degree. There is always a tradeoff between how generic and how easy it is to use. When I have time I will create an example project since it's a lot to setup.
+I am using this for my own game that I tinker on in my free time. The first system had it's flaws and this is the second generation of a rpg system. I made it to be flexible and customizable to a degree. There is always a tradeoff between how generic a system is and how easy it is to use. When I have the time I will create an example project to demonstrate in detail on how to set it up and how to make it easier to work with.
 
 ## Projects
 
